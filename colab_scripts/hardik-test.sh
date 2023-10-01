@@ -1,0 +1,1 @@
+python run_hf_bert.py -tep /content/drive/MyDrive/new_data/product+review_augmented/front/emanual_balanced_review_hijack_test.tsv -d "cuda:0" -e /content/drive/MyDrive/EManualBERT_RoBERTa_prf -bp "roberta-base" -tkp "roberta-base" -bs 32

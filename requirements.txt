@@ -1,0 +1,6 @@
+tqdm
+pandas
+sklearn
+gluonnlp
+matplotlib
+mxnet-cu101==1.7

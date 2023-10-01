@@ -1,0 +1,1 @@
+python run_hf_bert.py -ps -tep case_study_pairs.json -d "cpu" -e EManualBERT_RoBERTa -bp "roberta-base" -tkp "~/roberta-base-tok"

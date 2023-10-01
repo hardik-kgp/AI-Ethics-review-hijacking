@@ -1,0 +1,1 @@
+python run_hf_bert.py -tep data/balanced_review_hijack_test.tsv -d "cuda:1" -e ReviewBERT_BERT-XD -bp activebus/BERT-XD_Review -tkp "~/BERT-XD_Review-tok"

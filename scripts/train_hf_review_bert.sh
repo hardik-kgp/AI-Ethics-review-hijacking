@@ -1,0 +1,2 @@
+python run_hf_bert.py -t -tp data/emanual_balanced_review_hijack_train.tsv -vp data/emanual_balanced_review_hijack_val.tsv -d "cuda:1" -e EManualBERT_BERT-XD -bp activebus/BERT-XD_Review -tkp "~/BERT-XD_Review-tok"
+# python run_hf_bert.py -t -tp data/emanual_balanced_review_hijack_train.tsv -vp data/emanual_balanced_review_hijack_val.tsv -d "cuda:0" -e EManualBERT_fix

@@ -1,0 +1,4 @@
+# python run_hf_bert.py -t -tp data/product_augmented/back/emanual_balanced_review_hijack_train.tsv -vp data/product_augmented/back/emanual_balanced_review_hijack_val.tsv -d "cuda:1" -e ReviewBERT_pb -bp bert-base-uncased -tkp ~/bert-base-uncased-tok
+# python run_hf_bert.py -t -tp data/review_augmented/back/emanual_balanced_review_hijack_train.tsv -vp data/review_augmented/back/emanual_balanced_review_hijack_val.tsv -d "cuda:0" -e ReviewBERT_rb -bp bert-base-uncased -tkp ~/bert-base-uncased-tok
+# python run_hf_bert.py -t -tp data/product+review_augmented/back/emanual_balanced_review_hijack_train.tsv -vp data/product+review_augmented/back/emanual_balanced_review_hijack_val.tsv -d "cuda:1" -e ReviewBERT_prb -bp bert-base-uncased -tkp ~/bert-base-uncased-tok
+# python run_hf_bert.py -t -tp data/emanual_balanced_review_hijack_train.tsv -vp data/emanual_balanced_review_hijack_val.tsv -d "cuda:0" -e EManualBERT_fix

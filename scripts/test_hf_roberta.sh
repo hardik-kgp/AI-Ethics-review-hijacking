@@ -1,0 +1,4 @@
+# python run_hf_bert.py -tep data/emanual_balanced_review_hijack_test.tsv -d "cuda:1" -e EManualBERT_RoBERTa -bp roberta-base -tkp "~/roberta-base-tok"
+# python run_hf_bert.py -tep data/product_augmented/back/emanual_balanced_review_hijack_test.tsv -d "cuda:1" -e EManualBERT_RoBERTa_pb -bp roberta-base -tkp "~/roberta-base-tok"
+# python run_hf_bert.py -tep data/review_augmented/back/emanual_balanced_review_hijack_test.tsv -d "cuda:1" -e EManualBERT_RoBERTa_rb -bp roberta-base -tkp "~/roberta-base-tok"
+python run_hf_bert.py -tep data/product+review_augmented/back/emanual_balanced_review_hijack_test.tsv -d "cuda:1" -e EManualBERT_RoBERTa_prb -bp roberta-base -tkp "~/roberta-base-tok"
