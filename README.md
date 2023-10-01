@@ -1,5 +1,5 @@
-# ai_ethics_group_8
-Term project for AI Ethics course
+# Domain Specific Pretraining for Hijacked Review Detection in Online Forums
+Our code for the paper in NILES-2023
 ## Dataset
 code for creating the data:
 [Drive](https://colab.research.google.com/drive/1HvKhgAEW4lKMCGt7kIGyvvLIEdVJWMAv?usp=sharing)
